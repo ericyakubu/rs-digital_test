@@ -1,0 +1,51 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.about {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  &__img {
+    width: calc($section-width / 2);
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px 0 30px;
+
+  &__title {
+    @include text(30px, 35px, 700);
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    @include text(17px, 25px, 300);
+    margin-bottom: 5px;
+  }
+
+  &__btn {
+    color: $color-text;
+    @include text(17px, 25px);
+    border-bottom: 3px solid $color-red;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 20px;
+
+    &__title {
+      margin-bottom: 10px;
+    }
+  }
+}

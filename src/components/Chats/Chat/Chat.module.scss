@@ -1,0 +1,119 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/mixins.scss';
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+  min-width: 350px;
+
+  &__head {
+    @include text(29px, 1.2, 700);
+  }
+
+  &__body {
+    background: white;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__messages {
+    padding: 14px;
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: 0px;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    gap: 15px;
+
+    &__body {
+      height: 500px;
+    }
+
+    &__messages {
+      padding: 8px;
+    }
+  }
+}
+
+.message {
+  background: $color-bg;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  padding: 26px;
+  border-bottom: 1px solid $color-gray-light;
+
+  &__img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+  }
+
+  &__info {
+    margin-left: 20px;
+  }
+
+  &__name {
+    margin-bottom: 5px;
+
+    @include text(18px, 17px, 700);
+  }
+
+  &__position {
+    @include text(13px, 17px, 400, $color-red);
+
+    img {
+      width: 8px;
+      border-radius: unset;
+      height: auto;
+      margin-right: 4px;
+    }
+  }
+
+  &__rating {
+    margin-left: auto;
+  }
+
+  @media (max-width: 768px) {
+    padding: 13px;
+  }
+}
+
+.sender {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 20px 26px 26px;
+  border-top: 1px solid $color-gray-light;
+  gap: 10px;
+
+  &__img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+  }
+
+  &__send {
+    width: 22px;
+    height: 22px;
+    border-radius: unset;
+    transition: all 0.3s ease;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 13px 10px 13px 13px;
+  }
+}

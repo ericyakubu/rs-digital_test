@@ -1,0 +1,15 @@
+$section-width: 880px;
+
+$color-bg: #f9f7f2;
+$color-gray-light: #ececec;
+$color-gray-light-alt: #ebe9e4;
+$color-gray: #9d9d9d;
+$color-gray-dark: #212121;
+$color-text: #000;
+$color-white: #fff;
+$color-red: #ff4641;
+$color-orange: #fc4f1e;
+
+@media (max-width: 1024px) {
+  $section-width: 90vw;
+}

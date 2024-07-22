@@ -1,0 +1,24 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/mixins.scss';
+
+.message {
+  display: flex;
+  padding: 12px;
+
+  &__img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  &__text {
+    @include text(15px, 24px);
+    margin-bottom: 10px;
+  }
+
+  &__date {
+    @include text(11px, 25px, 400, $color-gray);
+    font-family: 'Roboto';
+  }
+}

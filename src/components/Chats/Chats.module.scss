@@ -1,0 +1,28 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.chats {
+  background: none;
+  display: flex;
+  gap: 24px;
+
+  @media (max-width: 1024px) {
+    gap: 10px;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  &__separator {
+    width: 2px;
+    height: 760px;
+    background: $color-gray-light-alt;
+  }
+
+  @media (max-width: 768px) {
+    &__separator {
+      display: none;
+    }
+  }
+}

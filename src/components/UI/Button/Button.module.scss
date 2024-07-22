@@ -1,0 +1,10 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/mixins.scss';
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  width: fit-content;
+  cursor: pointer;
+}

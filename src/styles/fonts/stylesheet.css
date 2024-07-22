@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'KievitPro';
+    src: url('KievitPro-BoldItalic.eot');
+    src: local('KievitPro-BoldItalic'),
+        url('KievitPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('KievitPro-BoldItalic.woff2') format('woff2'),
+        url('KievitPro-BoldItalic.woff') format('woff'),
+        url('KievitPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KievitPro';
+    src: url('KievitPro-Bold.eot');
+    src: local('KievitPro-Bold'),
+        url('KievitPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('KievitPro-Bold.woff2') format('woff2'),
+        url('KievitPro-Bold.woff') format('woff'),
+        url('KievitPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KievitPro';
+    src: url('KievitPro-BlackItalic.eot');
+    src: local('KievitPro-BlackItalic'),
+        url('KievitPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('KievitPro-BlackItalic.woff2') format('woff2'),
+        url('KievitPro-BlackItalic.woff') format('woff'),
+        url('KievitPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KievitPro';
+    src: url('KievitPro-Black.eot');
+    src: local('KievitPro-Black'),
+        url('KievitPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('KievitPro-Black.woff2') format('woff2'),
+        url('KievitPro-Black.woff') format('woff'),
+        url('KievitPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KievitPro';
+    src: url('KievitPro-ExtraLight.eot');
+    src: local('KievitPro-ExtraLight'),
+        url('KievitPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('KievitPro-ExtraLight.woff2') format('woff2'),
+        url('KievitPro-ExtraLight.woff') format('woff'),
+        url('KievitPro-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KievitPro';
+    src: url('KievitPro-ExtraBold.eot');
+    src: local('KievitPro-ExtraBold'),
+        url('KievitPro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('KievitPro-ExtraBold.woff2') format('woff2'),
+        url('KievitPro-ExtraBold.woff') format('woff'),
+        url('KievitPro-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KievitPro-Book';
+    src: url('KievitPro-Book.eot');
+    src: local('KievitPro-Book'),
+        url('KievitPro-Book.eot?#iefix') format('embedded-opentype'),
+        url('KievitPro-Book.woff2') format('woff2'),
+        url('KievitPro-Book.woff') format('woff'),
+        url('KievitPro-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KievitPro-BookItalic';
+    src: url('KievitPro-BookItalic.eot');
+    src: local('KievitPro-BookItalic'),
+        url('KievitPro-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('KievitPro-BookItalic.woff2') format('woff2'),
+        url('KievitPro-BookItalic.woff') format('woff'),
+        url('KievitPro-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KievitPro';
+    src: url('KievitPro-ExtraBoldItalic.eot');
+    src: local('KievitPro-ExtraBoldItalic'),
+        url('KievitPro-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('KievitPro-ExtraBoldItalic.woff2') format('woff2'),
+        url('KievitPro-ExtraBoldItalic.woff') format('woff'),
+        url('KievitPro-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KievitPro';
+    src: url('KievitPro-Light.eot');
+    src: local('KievitPro-Light'),
+        url('KievitPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('KievitPro-Light.woff2') format('woff2'),
+        url('KievitPro-Light.woff') format('woff'),
+        url('KievitPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KievitPro';
+    src: url('KievitPro-MediumItalic.eot');
+    src: local('KievitPro-MediumItalic'),
+        url('KievitPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('KievitPro-MediumItalic.woff2') format('woff2'),
+        url('KievitPro-MediumItalic.woff') format('woff'),
+        url('KievitPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KievitPro';
+    src: url('KievitPro-Medium.eot');
+    src: local('KievitPro-Medium'),
+        url('KievitPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('KievitPro-Medium.woff2') format('woff2'),
+        url('KievitPro-Medium.woff') format('woff'),
+        url('KievitPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KievitPro';
+    src: url('KievitPro-LightItalic.eot');
+    src: local('KievitPro-LightItalic'),
+        url('KievitPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('KievitPro-LightItalic.woff2') format('woff2'),
+        url('KievitPro-LightItalic.woff') format('woff'),
+        url('KievitPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KievitPro';
+    src: url('KievitPro-ExtraLightItalic.eot');
+    src: local('KievitPro-ExtraLightItalic'),
+        url('KievitPro-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('KievitPro-ExtraLightItalic.woff2') format('woff2'),
+        url('KievitPro-ExtraLightItalic.woff') format('woff'),
+        url('KievitPro-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KievitPro';
+    src: url('KievitPro-Italic.eot');
+    src: local('KievitPro-Italic'),
+        url('KievitPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('KievitPro-Italic.woff2') format('woff2'),
+        url('KievitPro-Italic.woff') format('woff'),
+        url('KievitPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KievitPro';
+    src: url('KievitPro-ThinItalic.eot');
+    src: local('KievitPro-ThinItalic'),
+        url('KievitPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('KievitPro-ThinItalic.woff2') format('woff2'),
+        url('KievitPro-ThinItalic.woff') format('woff'),
+        url('KievitPro-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KievitPro';
+    src: url('KievitPro-Regular.eot');
+    src: local('KievitPro-Regular'),
+        url('KievitPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('KievitPro-Regular.woff2') format('woff2'),
+        url('KievitPro-Regular.woff') format('woff'),
+        url('KievitPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KievitPro';
+    src: url('KievitPro-Thin.eot');
+    src: local('KievitPro-Thin'),
+        url('KievitPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('KievitPro-Thin.woff2') format('woff2'),
+        url('KievitPro-Thin.woff') format('woff'),
+        url('KievitPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

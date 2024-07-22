@@ -1,0 +1,61 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.reviews {
+  padding: 35px 30px;
+
+  &__title {
+    @include text(30px, 35px, 700);
+    font-family: 'KievitPro';
+    margin-bottom: 20px;
+  }
+
+  &__footer {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__button {
+    border: 2px solid $color-red;
+    border-radius: 2px;
+    padding: 12px 24px;
+    min-width: 124px;
+    min-height: 40px;
+    @include text(15px, 17px, 500);
+    font-family: 'KievitPro';
+  }
+
+  &__dots {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: $color-gray-dark;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &__dot-active {
+    width: 8px;
+    height: 8px;
+    background: $color-red;
+  }
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
