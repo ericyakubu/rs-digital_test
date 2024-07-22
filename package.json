@@ -1,5 +1,7 @@
 {
   "name": "rs_digital",
+  "description": "RS Digital test by Eric Yakubu",
+  "author": "Eric Yakubu",
   "private": true,
   "version": "0.0.0",
   "type": "module",
